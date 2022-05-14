@@ -1,0 +1,41 @@
+# Veriyapilandirmalarivealgoritmalar
+
+Not: Ben Insertion Sort'u derste gösterildiği üzere yaptım.
+
+1. Soru: Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+ 
+ [22,27,16,2,18,6]
+ 
+1. Adım: [16,22,27,2,18,6]
+
+2. Adım: [2,16,22,27,18,6]
+
+3. Adım: [2,16,18,22,27,6]
+
+4. Adım ve Son Adım: [2,6,16,18,22,27]
+
+
+2. Soru: Big-O gösterimini yazınız.
+
+Insertion Sort için Big-O= O(n²)
+
+
+3. Soru: Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+
+Worst Case, n²'ye eşittir.
+Average Case de n²'ye eşittir.
+Best Case ise n'e eşittir.
+
+4. Soru Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+
+Dizi sıralandıktan sonra 18 sayısı setin ortasında olduğu için Average Case'e girer.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+
+1. Adım:	7	3	5	8	2	9	4	15 6
+2. Adım:	3	7	5	8	2	9	4 15 6
+3. Adım:  3	5	7	8	2	9	4	15 6
+4. Adım:	3	5	7	8	2	9	4	15 6
